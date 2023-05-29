@@ -1,5 +1,5 @@
 {
-	"name": "template-react-lib-loader",
+	"name": "@diana064/template-react-lib-gen",
 	"version": "1.0.0",
 	"description": "A react component library",
 	"scripts": {
@@ -25,5 +25,8 @@
 	"types": "dist/index.d.ts",
 	"dependencies": {
 		"tslib": "^2.5.2"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/diana064"
 	}
 }
